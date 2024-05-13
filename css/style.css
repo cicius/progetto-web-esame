@@ -1,0 +1,1409 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+	max-width: 1200px; /* o quello che volete */
+	margin: 0 auto; /* per centrare quel contenitore nella pagina */
+    padding: 0 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    background-color: #EEEEEE;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+
+header p {
+    font-family: pacifico;
+    padding-left: 16px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding-right: 16px;
+
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.intro {
+    padding: 144px 24px;
+    background-image: url(../foto\ progetto\ web/testatainkworld.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenitoretitolo h1 {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+
+
+.info-inkworld {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkworld div.ink {
+    width: 30%;
+}
+
+.info-inkworld div.ink p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-inkworld div.info {
+    width: 70%;
+}
+
+.info-inkworld div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkworld div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.info-world {
+    display: flex;
+    padding:0px 16px;
+}
+
+.indo-world div.stili {
+    width: 30%;
+}
+
+.info-world div.stili a {
+    color: #1EA5BC;
+    text-decoration: none;
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-world div.stili p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.info-world div.stili a:hover {
+    text-decoration: underline;
+}
+
+.elenco-tatuatori {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.elenco-tatuatori img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.elenco-tatuatori p {
+    text-align: center;
+    padding: 32px 16px;
+    font-size: 24px;
+}
+
+.elenco-tatuatori a {
+    text-decoration: none;
+    color: black;
+}
+
+.elenco-tatuatori a:hover {
+    text-decoration: underline;
+}
+
+.stili-colore-1 {
+    background-color: #1EA5BC;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.tatuatori {
+    display: flex;
+    padding:48px 16px;
+}
+
+.tatuatori a {
+    color: #FF3D00;
+    text-decoration: none;
+    display: flex;
+    padding: 48px 16px;
+}
+
+.tatuatori p {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.tatuatori a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 32px;
+    background-color: #EEEEEE;
+    margin-top: 58px;
+}
+
+footer p {
+}
+
+footer nav ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding:0;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.introtattoo {
+    background-color: #FF3D00;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introtattoo h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.tatuatori-colore-2 {
+    background-color: #FF3D00;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.info-inkbob {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkbob div.ink {
+    width: 30%;
+}
+
+.info-inkbob div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #575C77;
+}
+
+.info-inkbob div.info {
+    width: 70%;
+}
+
+.info-inkwbob div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkbob div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-bob {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-bob div.bob {
+    width: 30%;
+    color: #575C77;
+}
+
+.info-bob div.bob p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-bob div.bobrealistico {
+    width: 70%;
+}
+
+.info-bob div.bobrealistico h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-bob div.bobrealistico p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-3 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introbob {
+    background-color: #575C77;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introbob h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerybob {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #575C77;
+}
+
+.info-inkgargiulo {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkgargiulo div.ink {
+    width: 30%;
+}
+
+.info-inkgargiulo div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #A00101;
+}
+
+.info-inkgargiulo div.info {
+    width: 70%;
+}
+
+.info-inkgargiulo div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkgargiulo div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-gargiulo {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-gargiulo div.gargiulo {
+    width: 30%;
+    color: #A00101;
+}
+
+.info-gargiulo div.gargiulo p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-gargiulo div.gargiulogiapponese {
+    width: 70%;
+}
+
+.info-gargiulo div.gargiulogiapponese h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-gargiulo div.gargiulogiapponese p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-4 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introgargiulo {
+    background-color: #A00101;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introgargiulo h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerygargiulo {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #A00101;
+}
+
+.info-inktoy {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inktoy div.ink {
+    width: 30%;
+}
+
+.info-inktoy div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #CDC503;
+}
+
+.info-inktoy div.info {
+    width: 70%;
+}
+
+.info-inktoy div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inktoy div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-toy {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-toy div.toy {
+    width: 30%;
+    color: #CDC503;
+}
+
+.info-toy div.toy p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-toy div.toyoldschool {
+    width: 70%;
+}
+
+.info-toy div.toyoldschool h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-toy div.toyoldschool p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-5 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introtoy {
+    background-color: #CDC503;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introtoy h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerytoy {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #CDC503;
+}
+
+.info-inkbrocca {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkbrocca div.ink {
+    width: 30%;
+}
+
+.info-inkbrocca div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #066526;
+}
+
+.info-inkbrocca div.info {
+    width: 70%;
+}
+
+.info-inkbrocca div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkbrocca div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-brocca {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-brocca div.brocca {
+    width: 30%;
+    color: #066526;
+}
+
+.info-brocca div.brocca p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-brocca div.broccanewschool {
+    width: 70%;
+}
+
+.info-brocca div.broccanewschool h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-brocca div.broccanewschool p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-6 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introbrocca {
+    background-color: #066526;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introbrocca h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerybrocca {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #066526;
+}
+
+.info-inkrossini {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkrossini div.ink {
+    width: 30%;
+}
+
+.info-inkrossini div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #A5055C;
+}
+
+.info-inkrossini div.info {
+    width: 70%;
+}
+
+.info-inkrossini div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkrossini div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-rossini {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-rossini div.rossini {
+    width: 30%;
+    color: #A5055C;
+}
+
+.info-rossini div.rossini p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-rossini div.rossinifineline {
+    width: 70%;
+}
+
+.info-rossini div.rossinifineline h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-rossini div.rossinifineline p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-7 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introrossini {
+    background-color: #A5055C;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introrossini h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogalleryrossini {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #A5055C;
+}
+
+.info-inkmarchini {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkmarchini div.ink {
+    width: 30%;
+}
+
+.info-inkmarchini div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #BB5104;
+}
+
+.info-inkmarchini div.info {
+    width: 70%;
+}
+
+.info-inkmarchini div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkmarchini div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-marchini {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-marchini div.marchini {
+    width: 30%;
+    color: #BB5104;
+}
+
+.info-marchini div.marchini p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-marchini div.marchinitribale {
+    width: 70%;
+}
+
+.info-marchini div.marchinitribale h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-marchini div.marchinitribale p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-8 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.intromarchini {
+    background-color: #BB5104;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intromarchini h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerymarchini {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #BB5104;
+}
+
+.info-inksnt {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inksnt div.ink {
+    width: 30%;
+}
+
+.info-inksnt div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #05B78C;
+}
+
+.info-inksnt div.info {
+    width: 70%;
+}
+
+.info-inksnt div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inksnt div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-snt {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-snt div.snt {
+    width: 30%;
+    color: #05B78C;
+}
+
+.info-snt div.snt p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-snt div.sntlettering {
+    width: 70%;
+}
+
+.info-snt div.sntlettering h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-snt div.sntlettering p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-9 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introsnt {
+    background-color: #05B78C;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introsnt h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerysnt {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #05B78C;
+}
+
+.info-inkchiesa {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkchiesa div.ink {
+    width: 30%;
+}
+
+.info-inkchiesa div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #5B0385;
+}
+
+.info-inkchiesa div.info {
+    width: 70%;
+}
+
+.info-inkchiesa div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkchiesa div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-chiesa {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-chiesa div.chiesa {
+    width: 30%;
+    color: #5B0385;
+}
+
+.info-chiesa div.chiesa p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-chiesa div.chiesapastelgore {
+    width: 70%;
+}
+
+.info-chiesa div.chiesapastelgore h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-chiesa div.chiesapastelgore p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-10 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introchiesa {
+    background-color: #5B0385;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introchiesa h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerychiesa {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #5B0385;
+}
+
+.info-inkgaldo {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkgaldo div.ink {
+    width: 30%;
+}
+
+.info-inkgaldo div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #934E4E;
+}
+
+.info-inkgaldo div.info {
+    width: 70%;
+}
+
+.info-inkgaldo div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkgaldo div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.info-galdo {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-galdo div.galdo {
+    width: 30%;
+    color: #934E4E;
+}
+
+.info-galdo div.galdo p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-galdo div.galdodotwork {
+    width: 70%;
+}
+
+.info-galdo div.galdodotwork h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-galdo div.galdodotwork p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.colore-11 img {
+    border-radius: 50px 50px 50px 50px;
+}
+
+.introgaldo {
+    background-color: #934E4E;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introgaldo h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.photogallerygaldo {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #934E4E;
+}
+
+.introrealistico {
+    background-color: #575C77;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introrealistico h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.info-inkrealistico {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkrealistico div.ink {
+    width: 30%;
+    margin-right: 30px;
+}
+
+.info-inkrealistico div.ink img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.info-inkrealistico div.info {
+    width: 70%;
+}
+
+
+.info-inkrealistico div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.introgiapponese {
+    background-color: #A00101;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introgiapponese h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.introoldschool {
+    background-color: #CDC503;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introoldschool h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.intronewschool {
+    background-color: #066526;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intronewschool h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.introfineline {
+    background-color: #A5055C;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introfineline h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.introtribale {
+    background-color: #BB5004;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introtribale h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.introlettering {
+    background-color: #05B78C;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introlettering h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.intropastelgore {
+    background-color: #5B0385;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.intropastelgore h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.introdotwork {
+    background-color: #934E4E;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introdotwork h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.black {
+    background-color: black;
+}
+
+.black {
+    color: white;
+}
+
+.black header p a {
+    color: white;
+}
+
+.black header nav ul a {
+    color: white;
+}
+
+.black footer p a {
+    color: white;
+}
+
+.black footer nav ul a {
+    color: white;
+}
+
+.info-inktatuatori {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inktatuatori div.ink {
+    width: 30%;
+    color: #FF3D00;
+}
+
+.info-inktatuatori div.ink p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-inktatuatori div.info {
+    width: 70%;
+}
+
+.info-inktatuatori div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inktatuatori div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+
+.introstili {
+    background-color: #1EA5BC;
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introstili h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.info-inkstili {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkstili div.ink {
+    width: 30%;
+    color: #1EA5BC;
+}
+
+.info-inkstili div.ink p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-inkstili div.info {
+    width: 70%;
+}
+
+.info-inkstili div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkstili div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.tatuatore p {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FF3D00;
+}
+
+.stile p {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1EA5BC;
+}
+
+.introstoria {
+    background-image: url(../foto\ progetto\ web/testatainkworld.png);
+    padding: 144px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.introstoria h1 {
+    color: white;
+    font-size: 128px;
+    text-align: center;
+    font-family: pacifico;
+}
+
+.info-inkstoria {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-inkstoria div.ink {
+    width: 30%;
+}
+
+.info-inkstoria div.ink p {
+font-weight: bold;
+font-size: 24px;
+color: #FF5DBE;
+}
+
+.info-inkstoria div.info {
+    width: 70%;
+}
+
+.info-inkwstoria div.info h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-inkstoria div.info p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.info-storia {
+    display: flex;
+    padding:48px 16px;
+}
+
+.info-storia div.bob {
+    width: 30%;
+    color: #FF5DBE;
+}
+
+.info-storia div.bob p {
+font-weight: bold;
+font-size: 24px;
+}
+
+.info-storia div.bobrealistico {
+    width: 70%;
+}
+
+.info-storia div.bobrealistico h2 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.info-storia div.bobrealistico p {
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.elenco-storia {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+
+.elenco-storia img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.photogallerystoria {
+    width: 30%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    padding:48px 16px;
+    color: #FF5DBE;
+}
+
+.elenco-bob {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+
+.elenco-bob img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.artista {
+    transition: transform 0.3s ease-in-out;
+}
+
+.artista:hover {
+    transform: scale(1.4);
+}
+
+@media screen and (max-width:600px) {
+
+    .contenitore h1 {
+       font-size: 64px;
+    }
+
+    .contenitoretitolo h1 {
+        font-size: 32px;
+    }
+}
